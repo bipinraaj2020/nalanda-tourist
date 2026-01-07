@@ -2,7 +2,7 @@
 
 A responsive, multi-page tourism website promoting Nalanda, Bihar. This project serves as a digital guide for tourists, showcasing the historical significance, accommodation options, and local cuisine of the region.
 
-![Explore Nalanda](https://images.unsplash.com/photo-1609766857041-ed402ea8069a?w=1200&q=80)
+![Explore Nalanda](https://whc.unesco.org/uploads/thumbs/site_1502_0010-1200-630-20160616154106.jpg)
 
 ## 🏛️ Features
 
