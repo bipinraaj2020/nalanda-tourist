@@ -1,0 +1,311 @@
+/* ==========================================================================
+   HOTELS PAGE STYLES
+   ========================================================================== */
+
+.page {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+}
+
+/* ==========================================================================
+   HERO SECTION
+   ========================================================================== */
+.hero {
+    position: relative;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: calc(var(--navbar-height) + var(--spacing-3xl)) var(--spacing-lg) var(--spacing-3xl);
+    overflow: hidden;
+}
+
+.heroBackground {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+.heroImage {
+    object-fit: cover;
+    object-position: center;
+}
+
+.heroOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.5) 0%,
+            rgba(0, 0, 0, 0.6) 100%);
+}
+
+.heroContent {
+    text-align: center;
+    color: var(--color-white);
+    max-width: 700px;
+    animation: fadeIn 1s ease forwards;
+}
+
+.heroTitle {
+    font-family: var(--font-heading);
+    font-size: var(--text-5xl);
+    font-weight: var(--font-extrabold);
+    line-height: 1.1;
+    margin-bottom: var(--spacing-md);
+}
+
+.heroSubtitle {
+    font-size: var(--text-lg);
+    line-height: 1.7;
+    opacity: 0.9;
+    margin-bottom: var(--spacing-2xl);
+}
+
+/* Search Bar */
+.searchContainer {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.searchBar {
+    display: flex;
+    background: var(--color-white);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-sm);
+    box-shadow: var(--shadow-xl);
+    gap: var(--spacing-sm);
+}
+
+.searchInput,
+.dateInput {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--color-off-white);
+    border-radius: var(--radius-lg);
+}
+
+.searchIcon,
+.calendarIcon {
+    font-size: var(--text-lg);
+    color: var(--color-gray);
+}
+
+.input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: var(--text-sm);
+    color: var(--color-black);
+    outline: none;
+}
+
+.input::placeholder {
+    color: var(--color-gray);
+}
+
+.searchBtn {
+    padding: var(--spacing-md) var(--spacing-2xl);
+    background: var(--color-primary);
+    color: var(--color-black);
+    font-weight: var(--font-semibold);
+    border: none;
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.searchBtn:hover {
+    background: var(--color-primary-dark);
+}
+
+/* ==========================================================================
+   FILTERS SECTION
+   ========================================================================== */
+.filtersSection {
+    padding: var(--spacing-lg) 0;
+    background: var(--color-white);
+    border-bottom: 1px solid var(--color-gray-lighter);
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+}
+
+.filterGroup {
+    display: flex;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
+}
+
+.filterSelect {
+    padding: var(--spacing-sm) var(--spacing-lg);
+    font-size: var(--text-sm);
+    color: var(--color-gray-dark);
+    background: var(--color-white);
+    border: 1px solid var(--color-gray-lighter);
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    outline: none;
+    transition: border-color var(--transition-fast);
+}
+
+.filterSelect:hover,
+.filterSelect:focus {
+    border-color: var(--color-gray);
+}
+
+.sortGroup {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.sortLabel {
+    font-size: var(--text-sm);
+    color: var(--color-gray);
+}
+
+.sortSelect {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    color: var(--color-black);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+/* ==========================================================================
+   HOTELS GRID
+   ========================================================================== */
+.hotels {
+    padding: var(--spacing-3xl) 0;
+    background: var(--color-off-white);
+}
+
+.sectionHeader {
+    margin-bottom: var(--spacing-2xl);
+}
+
+.sectionTitle {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--spacing-xs);
+}
+
+.sectionSubtitle {
+    font-size: var(--text-sm);
+    color: var(--color-primary-dark);
+}
+
+.hotelsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-xl);
+}
+
+.noResults {
+    text-align: center;
+    padding: var(--spacing-4xl);
+    color: var(--color-gray);
+}
+
+.loadMore {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--spacing-3xl);
+}
+
+.loadMoreBtn {
+    padding: var(--spacing-md) var(--spacing-2xl);
+    background: transparent;
+    color: var(--color-black);
+    font-weight: var(--font-semibold);
+    border: 2px solid var(--color-black);
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.loadMoreBtn:hover {
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
+/* ==========================================================================
+   RESPONSIVE STYLES
+   ========================================================================== */
+@media (max-width: 1024px) {
+    .hotelsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .heroTitle {
+        font-size: var(--text-4xl);
+    }
+
+    .heroTitle br {
+        display: none;
+    }
+
+    .searchBar {
+        flex-direction: column;
+        padding: var(--spacing-md);
+    }
+
+    .searchInput,
+    .dateInput {
+        width: 100%;
+    }
+
+    .searchBtn {
+        width: 100%;
+    }
+
+    .filters {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filterGroup {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: var(--spacing-sm);
+    }
+
+    .sortGroup {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .hotelsGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .heroTitle {
+        font-size: var(--text-3xl);
+    }
+
+    .filterSelect {
+        padding: var(--spacing-xs) var(--spacing-md);
+        font-size: var(--text-xs);
+    }
+}

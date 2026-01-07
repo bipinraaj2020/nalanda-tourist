@@ -1,0 +1,441 @@
+/* ==========================================================================
+   NEARBY PAGE STYLES
+   ========================================================================== */
+
+.page {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+}
+
+/* ==========================================================================
+   HERO SECTION
+   ========================================================================== */
+.hero {
+    position: relative;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: calc(var(--navbar-height) + var(--spacing-3xl)) var(--spacing-lg) var(--spacing-3xl);
+    overflow: hidden;
+}
+
+.heroBackground {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+.heroImage {
+    object-fit: cover;
+    object-position: center;
+}
+
+.heroOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.4) 0%,
+            rgba(0, 0, 0, 0.6) 100%);
+}
+
+.heroContent {
+    text-align: center;
+    color: var(--color-white);
+    max-width: 700px;
+    animation: fadeIn 1s ease forwards;
+}
+
+.heroBadge {
+    display: inline-block;
+    padding: var(--spacing-xs) var(--spacing-lg);
+    background: var(--color-primary);
+    color: var(--color-black);
+    font-size: var(--text-xs);
+    font-weight: var(--font-bold);
+    letter-spacing: 1px;
+    border-radius: var(--radius-full);
+    margin-bottom: var(--spacing-lg);
+}
+
+.heroTitle {
+    font-family: var(--font-heading);
+    font-size: var(--text-5xl);
+    font-weight: var(--font-extrabold);
+    line-height: 1.1;
+    margin-bottom: var(--spacing-md);
+}
+
+.heroSubtitle {
+    font-size: var(--text-lg);
+    line-height: 1.7;
+    opacity: 0.9;
+}
+
+/* ==========================================================================
+   OVERVIEW SECTION
+   ========================================================================== */
+.overview {
+    padding: var(--spacing-3xl) 0;
+    background: var(--color-white);
+    margin-top: -40px;
+    position: relative;
+    z-index: 10;
+}
+
+.overviewGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-lg);
+    background: var(--color-white);
+    border-radius: var(--radius-2xl);
+    box-shadow: var(--shadow-xl);
+    padding: var(--spacing-2xl);
+}
+
+.overviewCard {
+    text-align: center;
+    padding: var(--spacing-lg);
+}
+
+.overviewIcon {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-md);
+    display: block;
+}
+
+.overviewTitle {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    color: var(--color-black);
+    margin-bottom: var(--spacing-xs);
+}
+
+.overviewText {
+    font-size: var(--text-sm);
+    color: var(--color-gray);
+}
+
+/* ==========================================================================
+   PLACES SECTION
+   ========================================================================== */
+.places {
+    padding: var(--spacing-4xl) 0;
+    background: var(--color-off-white);
+}
+
+.sectionHeader {
+    text-align: center;
+    margin-bottom: var(--spacing-3xl);
+}
+
+.sectionTitle {
+    font-size: var(--text-4xl);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--spacing-md);
+}
+
+.sectionSubtitle {
+    font-size: var(--text-lg);
+    color: var(--color-gray);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.placesGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-xl);
+}
+
+/* ==========================================================================
+   TRAVEL TIPS SECTION
+   ========================================================================== */
+.travelTips {
+    padding: var(--spacing-4xl) 0;
+    background: var(--color-white);
+}
+
+.tipsTitle {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-bold);
+    text-align: center;
+    margin-bottom: var(--spacing-3xl);
+}
+
+.tipsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-xl);
+}
+
+.tipCard {
+    text-align: center;
+    padding: var(--spacing-xl);
+    background: var(--color-off-white);
+    border-radius: var(--radius-xl);
+    transition: all var(--transition-normal);
+}
+
+.tipCard:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+}
+
+.tipIcon {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-lg);
+    display: block;
+}
+
+.tipCardTitle {
+    font-size: var(--text-lg);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--spacing-md);
+}
+
+.tipCardText {
+    font-size: var(--text-sm);
+    color: var(--color-gray);
+    line-height: 1.6;
+}
+
+/* ==========================================================================
+   ITINERARIES SECTION
+   ========================================================================== */
+.itineraries {
+    padding: var(--spacing-4xl) 0;
+    background: var(--color-off-white);
+}
+
+.itineraryGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-3xl);
+}
+
+.itineraryCard {
+    background: var(--color-white);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-xl);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-normal);
+}
+
+.itineraryCard:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-xl);
+}
+
+.itineraryHeader {
+    margin-bottom: var(--spacing-lg);
+}
+
+.duration {
+    display: inline-block;
+    padding: var(--spacing-xs) var(--spacing-md);
+    background: var(--color-primary);
+    color: var(--color-black);
+    font-size: var(--text-xs);
+    font-weight: var(--font-bold);
+    border-radius: var(--radius-full);
+    margin-bottom: var(--spacing-sm);
+}
+
+.itineraryTitle {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+}
+
+.itineraryDesc {
+    font-size: var(--text-sm);
+    color: var(--color-gray);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-lg);
+}
+
+.itineraryStops {
+    list-style: none;
+    padding: 0;
+    margin-bottom: var(--spacing-lg);
+}
+
+.itineraryStops li {
+    font-size: var(--text-sm);
+    color: var(--color-gray-dark);
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--color-gray-lighter);
+    position: relative;
+    padding-left: var(--spacing-lg);
+}
+
+.itineraryStops li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--color-primary-dark);
+}
+
+.itineraryStops li:last-child {
+    border-bottom: none;
+}
+
+.itineraryBtn {
+    display: inline-block;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    background: var(--color-black);
+    color: var(--color-white);
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    transition: all var(--transition-normal);
+}
+
+.itineraryBtn:hover {
+    background: var(--color-primary);
+    color: var(--color-black);
+}
+
+/* ==========================================================================
+   CTA SECTION
+   ========================================================================== */
+.cta {
+    padding: var(--spacing-4xl) 0;
+    background: linear-gradient(135deg, var(--color-black) 0%, var(--color-dark) 100%);
+}
+
+.ctaContent {
+    text-align: center;
+    color: var(--color-white);
+}
+
+.ctaTitle {
+    font-size: var(--text-4xl);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--spacing-md);
+}
+
+.ctaText {
+    font-size: var(--text-lg);
+    opacity: 0.8;
+    margin-bottom: var(--spacing-2xl);
+}
+
+.ctaButtons {
+    display: flex;
+    gap: var(--spacing-lg);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ctaPrimaryBtn {
+    padding: var(--spacing-md) var(--spacing-2xl);
+    background: var(--color-primary);
+    color: var(--color-black);
+    font-weight: var(--font-semibold);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    transition: all var(--transition-normal);
+}
+
+.ctaPrimaryBtn:hover {
+    background: var(--color-primary-dark);
+    transform: translateY(-3px);
+}
+
+.ctaSecondaryBtn {
+    padding: var(--spacing-md) var(--spacing-2xl);
+    background: transparent;
+    color: var(--color-white);
+    font-weight: var(--font-semibold);
+    border: 2px solid var(--color-white);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    transition: all var(--transition-normal);
+}
+
+.ctaSecondaryBtn:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+/* ==========================================================================
+   RESPONSIVE STYLES
+   ========================================================================== */
+@media (max-width: 1024px) {
+    .overviewGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .placesGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tipsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .itineraryGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .heroTitle {
+        font-size: var(--text-4xl);
+    }
+
+    .overviewGrid {
+        grid-template-columns: repeat(2, 1fr);
+        padding: var(--spacing-lg);
+    }
+
+    .placesGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .tipsGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .itineraryGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .ctaButtons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ctaPrimaryBtn,
+    .ctaSecondaryBtn {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .heroTitle {
+        font-size: var(--text-3xl);
+    }
+
+    .overviewGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .overviewCard {
+        padding: var(--spacing-md);
+    }
+
+    .overviewTitle {
+        font-size: var(--text-lg);
+    }
+}
