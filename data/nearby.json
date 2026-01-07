@@ -1,0 +1,74 @@
+[
+    {
+        "id": "rajgir",
+        "name": "Rajgir",
+        "distance": "12 km",
+        "description": "An ancient city surrounded by seven hills, Rajgir was the first capital of the Magadha kingdom. Known for hot springs and the Vishwa Shanti Stupa.",
+        "highlights": [
+            "Vishwa Shanti Stupa",
+            "Hot Springs",
+            "Glass Bridge"
+        ],
+        "image": "https://mediaindia.eu/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-02-at-15.30.29.jpeg"
+    },
+    {
+        "id": "pawapuri",
+        "name": "Pawapuri",
+        "distance": "26 km",
+        "description": "One of the holiest pilgrimage sites for Jains. This is where Lord Mahavira attained Moksha (liberation). The Jal Mandir in the lotus pond is iconic.",
+        "highlights": [
+            "Jal Mandir",
+            "Samosharan Temple",
+            "Lotus Lake"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pawapuri_-_001_Temple_marking_Mahavira%27s_Passing_%289243092471%29.jpg"
+    },
+    {
+        "id": "bodhgaya",
+        "name": "Bodh Gaya",
+        "distance": "90 km",
+        "description": "The most sacred Buddhist pilgrimage site where Gautama Buddha attained enlightenment under the Bodhi Tree. Home to the Mahabodhi Temple.",
+        "highlights": [
+            "Mahabodhi Temple",
+            "Bodhi Tree",
+            "Great Buddha Statue"
+        ],
+        "image": "https://historified.in/wp-content/uploads/2025/01/5bf6b31467fcccd2ab84164f5edcd469.jpg"
+    },
+    {
+        "id": "patna",
+        "name": "Patna",
+        "distance": "95 km",
+        "description": "Bihar's capital city with a rich history as ancient Pataliputra. Visit museums, historical sites, and experience urban Bihar.",
+        "highlights": [
+            "Patna Museum",
+            "Golghar",
+            "Gandhi Maidan"
+        ],
+        "image": "https://s7ap1.scene7.com/is/image/incredibleindia/gol-ghar-patna-bihar-gol-ghar-city-ff?qlt=82&ts=1742186424384"
+    },
+    {
+        "id": "vikramshila",
+        "name": "Vikramshila",
+        "distance": "250 km",
+        "description": "Ruins of another great ancient Buddhist university, established by King Dharmapala. A lesser-known but equally significant archaeological site.",
+        "highlights": [
+            "Ancient Ruins",
+            "Buddhist Monastery",
+            "Museum"
+        ],
+        "image": "https://images.hindustantimes.com/img/2021/08/11/1600x900/55db672e-fabf-11eb-bb60-041797e3592f_1628699610055.jpg"
+    },
+    {
+        "id": "vaishali",
+        "name": "Vaishali",
+        "distance": "100 km",
+        "description": "One of the world's first republics. Important for both Buddhists and Jains. Features the famous Ashoka Pillar and ancient stupas.",
+        "highlights": [
+            "Ashoka Pillar",
+            "Buddha Stupa",
+            "Coronation Tank"
+        ],
+        "image": "https://www.trawell.in/admin/images/upload/77009659Vaishali_Budhha_Relic_Stupa_Main.jpg"
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "id": "heritage-resort",
+        "name": "The Heritage Resort Nalanda",
+        "distance": "1.2 KM FROM RUINS",
+        "rating": 4.8,
+        "amenities": [
+            "Swimming Pool",
+            "Spa",
+            "Free WiFi"
+        ],
+        "price": 6000,
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80"
+    },
+    {
+        "id": "nalanda-regency",
+        "name": "Nalanda Regency",
+        "distance": "0.8 KM FROM RUINS",
+        "rating": 4.5,
+        "amenities": [
+            "Breakfast Included",
+            "Parking"
+        ],
+        "price": 3500,
+        "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80"
+    },
+    {
+        "id": "gargee-gautam",
+        "name": "Gargee Gautam Vihar",
+        "distance": "CITY CENTER",
+        "rating": 4.2,
+        "amenities": [
+            "Budget Friendly",
+            "AC"
+        ],
+        "price": 1800,
+        "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80"
+    },
+    {
+        "id": "indo-hokke",
+        "name": "Indo Hokke Hotel",
+        "distance": "2.0 KM FROM RUINS",
+        "rating": 4.6,
+        "amenities": [
+            "Cultural",
+            "Restaurant"
+        ],
+        "price": 4200,
+        "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80"
+    },
+    {
+        "id": "hotel-amrapali",
+        "name": "Hotel Amrapali",
+        "distance": "MARKET AREA",
+        "rating": 4.0,
+        "amenities": [
+            "Convenient",
+            "Transport"
+        ],
+        "price": 2100,
+        "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80"
+    },
+    {
+        "id": "rajgir-residency",
+        "name": "Rajgir Residency",
+        "distance": "NEAR ROPEWAY",
+        "rating": 4.7,
+        "amenities": [
+            "Scenic",
+            "Family"
+        ],
+        "price": 4800,
+        "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80"
+    }
+]

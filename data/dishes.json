@@ -1,0 +1,56 @@
+[
+    {
+        "id": "litti-chokha",
+        "name": "Litti Chokha",
+        "description": "The signature dish of Bihar. Whole wheat dough balls stuffed with sattu (roasted gram flour) with tomato-brinjal bharta and smoky sautéed potato mash.",
+        "isVeg": true,
+        "prepTime": "45 mins",
+        "spiceLevel": "Medium",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1a_M-92EzB4sq8fBMzaHdC2rRM8zs5DtolQ&s"
+    },
+    {
+        "id": "silao-khaja",
+        "name": "Silao Khaja",
+        "description": "A crisp and flaky sweet delicacy from Silao, located between Nalanda and Rajgir. Famous for its delicate sweet layers that melt in the mouth.",
+        "isVeg": true,
+        "prepTime": "2 hours",
+        "spiceLevel": "Sweet",
+        "image": "https://exotikalhub.com/wp-content/uploads/2021/09/Khaja-2-1.jpg"
+    },
+    {
+        "id": "sattu-sharbat",
+        "name": "Sattu Sharbat",
+        "description": "The signature cooling drink of the region. A savory or sweet drink made from roasted chickpea flour, cumin, lemon, and fresh herbs - perfect for hot summers.",
+        "isVeg": true,
+        "prepTime": "5 mins",
+        "spiceLevel": "Mild",
+        "image": "https://opt.toiimg.com/recuperator/img/toi/m-65608515/65608515.jpg&width=500&resizemode=4"
+    },
+    {
+        "id": "thekua",
+        "name": "Thekua",
+        "description": "A sweet deep-fried snack made for the Chhath Puja festival. Made from whole wheat flour, jaggery, and desiccated coconut. A festive treasure.",
+        "isVeg": true,
+        "prepTime": "40 mins",
+        "spiceLevel": "Sweet",
+        "image": "https://www.bigbasket.com/media/uploads/recipe/w-l/4551_2_1.jpg"
+    },
+    {
+        "id": "fish-curry",
+        "name": "Mustard Fish Curry",
+        "description": "A tangy dish typically made with rohu or catla fish and mustard-based gravy, reflecting the riverine culture of the region.",
+        "isVeg": false,
+        "prepTime": "30 mins",
+        "spiceLevel": "Spicy",
+        "image": "https://somethingiscooking.com/wp-content/uploads/2017/01/BengaliFishCurry2.jpg"
+    },
+    {
+        "id": "malpua",
+        "name": "Malpua",
+        "description": "Soft, fluffy pancakes made from fresh khoya and drenched in sugar syrup. A festive favorite. A festival favorite during Holi.",
+        "isVeg": true,
+        "prepTime": "25 mins",
+        "spiceLevel": "Sweet",
+        "image": "https://www.bigbasket.com/media/uploads/recipe/w-l/3376_1_1.jpg"
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "id": "nalanda-ruins",
+        "name": "Nalanda University Ruins",
+        "category": "Religious Heritage",
+        "categoryClass": "heritage",
+        "description": "The UNESCO World Heritage site of the ancient monastery complex featuring sacred meditation stupas, viharas, and extensive archaeological remains.",
+        "hours": "9 AM - 6 PM",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Temple_No.-_3%2C_Nalanda_Archaeological_Site.jpg"
+    },
+    {
+        "id": "hiuen-tsang",
+        "name": "Hiuen Tsang Memorial",
+        "category": "Historical Heritage",
+        "categoryClass": "heritage",
+        "description": "A stunning memorial hall dedicated to the famous Chinese scholar and traveler who studied at the ancient university in the 7th century.",
+        "hours": "8 AM - 5 PM",
+        "image": "https://www.hlimg.com/images/things2do/738X538/04_1506079943t.JPG"
+    },
+    {
+        "id": "archaeological-museum",
+        "name": "Archaeological Museum",
+        "category": "Museums",
+        "categoryClass": "museum",
+        "description": "Housing a rich collection of antiquities, stone images, bronze statues, and terracotta pieces recovered from the excavation site.",
+        "hours": "10 AM - 5 PM",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToI16Bs2cC6ol0RwEQQGEBlFkRMHdfq6xXEg&s"
+    },
+    {
+        "id": "surya-mandir",
+        "name": "Jal Mandir",
+        "category": "Temples/Shrines",
+        "categoryClass": "religious",
+        "description": "A temple dedicated to the Sun God, located near the university ruins. It features a tank where Chhath Puja is celebrated with great devotion.",
+        "hours": "6 AM - 8 PM",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/cc/d1/25/jal-madir-pawapuri-nalanda.jpg?w=1200&h=-1&s=1"
+    },
+    {
+        "id": "kundalpur",
+        "name": "Kundalpur Digambar Jain",
+        "category": "Temples/Shrines",
+        "categoryClass": "religious",
+        "description": "Believed to be the birthplace of Lord Mahavira, this site hosts beautiful temples with white marble architecture and serene surroundings.",
+        "hours": "5 AM - 7 PM",
+        "image": "https://pbs.twimg.com/media/GLq5b3HagAAo6Y9.jpg"
+    },
+    {
+        "id": "great-stupa",
+        "name": "The Great Stupa",
+        "category": "Nalanda University Campus",
+        "categoryClass": "heritage",
+        "description": "The most iconic structure of Nalanda, Stupa No. 3, is a massive temple-shrine with multiple flights of stairs and votive stupas.",
+        "hours": "9 AM - 5 PM",
+        "image": "https://cdn1.tripoto.com/media/filter/nl/gen/2380291/Image/1696592304_stupa_3_sanchi_hill_2013_02_21_4270.jfif.webp"
+    }
+]
